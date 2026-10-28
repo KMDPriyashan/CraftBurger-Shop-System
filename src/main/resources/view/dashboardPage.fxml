@@ -11,7 +11,6 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.dashboardPageController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb6c00" height="676.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="225.0" />
@@ -105,7 +104,7 @@
             <Font name="Agency FB" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="640.0" layoutY="254.0" text="94% Completed" textFill="#18c92a">
+      <Label layoutX="640.0" layoutY="254.0" text="+ 94% Completed" textFill="#18c92a">
          <font>
             <Font size="10.0" />
          </font>
