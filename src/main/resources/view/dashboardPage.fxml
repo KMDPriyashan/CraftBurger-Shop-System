@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
@@ -114,5 +115,17 @@
             <Font name="Agency FB" size="18.0" />
          </font>
       </Label>
+      <Button layoutX="29.0" layoutY="127.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="Burger Menu" textFill="#fb6c00">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
