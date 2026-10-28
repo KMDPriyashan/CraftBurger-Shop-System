@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.manuPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb6c00" height="100.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="926.0" />
+      <Label layoutX="31.0" layoutY="18.0" text="CraftBurger" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="58.0" text="20 Signature Burgers &amp; Combo Specials" />
+      <TextField layoutX="279.0" layoutY="24.0" prefHeight="39.0" prefWidth="402.0" promptText="Search Any Burger" />
+      <Button layoutX="697.0" layoutY="25.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="78.0" style="-fx-background-color: #000000;" text="Chicken" textFill="WHITE">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.34250760078430176" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="785.0" layoutY="25.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="78.0" style="-fx-background-color: #000000;" text="Fish" textFill="WHITE">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.34250760078430176" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="872.0" layoutY="25.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="33.0" style="-fx-background-color: #ffffff;" text="5">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.3400000035762787" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="306.0" layoutX="41.0" layoutY="131.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="259.0">
+         <effect>
+            <DropShadow height="64.28" radius="31.932500000000005" spread="0.35" width="65.45">
+               <color>
+                  <Color opacity="0.08562691509723663" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="170.0" fitWidth="174.0" layoutX="86.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/spicy%202.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="310.0" text="Garden Veggie Patty" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="347.0" text="Plant-based patty served with avocado" />
+      <Label layoutX="70.0" layoutY="365.0" text=" spread &amp; whole wheat bun." />
+      <Label layoutX="74.0" layoutY="394.0" text="Lkr. 790.00">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="306.0" layoutX="333.0" layoutY="131.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="259.0">
+         <effect>
+            <DropShadow height="64.28" radius="31.932500000000005" spread="0.35" width="65.45">
+               <color>
+                  <Color opacity="0.08562691509723663" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="306.0" layoutX="624.0" layoutY="131.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="259.0">
+         <effect>
+            <DropShadow height="64.28" radius="31.932500000000005" spread="0.35" width="65.45">
+               <color>
+                  <Color opacity="0.08562691509723663" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="170.0" fitWidth="174.0" layoutX="383.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/fride%207.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="370.0" layoutY="307.0" text="Garden Veggie Patty" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="370.0" layoutY="344.0" text="Plant-based patty served with avocado" />
+      <Label layoutX="366.0" layoutY="362.0" text=" spread &amp; whole wheat bun." />
+      <Label layoutX="371.0" layoutY="391.0" text="Lkr. 790.00">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="544.0" layoutY="389.0" mnemonicParsing="false" style="-fx-background-color: #fb6c00;" text="+" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="170.0" fitWidth="174.0" layoutX="673.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/spicy%202.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="660.0" layoutY="307.0" text="Garden Veggie Patty" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="660.0" layoutY="344.0" text="Plant-based patty served with avocado" />
+      <Label layoutX="657.0" layoutY="362.0" text=" spread &amp; whole wheat bun." />
+      <Label layoutX="661.0" layoutY="391.0" text="Lkr. 790.00">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="834.0" layoutY="389.0" mnemonicParsing="false" style="-fx-background-color: #fb6c00;" text="+" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="247.0" layoutY="391.0" mnemonicParsing="false" style="-fx-background-color: #fb6c00;" text="+" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
