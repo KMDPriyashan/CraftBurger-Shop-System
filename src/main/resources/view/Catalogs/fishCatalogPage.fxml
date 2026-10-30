@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="676.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.fishCatalogPageController">
+<AnchorPane prefHeight="676.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.catalogs.fishCatalogPageController">
    <children>
       <Label layoutX="26.0" layoutY="16.0" text="Craft Burger Catalog" textFill="#fb6c00">
          <font>

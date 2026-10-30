@@ -11,7 +11,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.chickenCatalogPageController">
+<AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.catalogs.chickenCatalogPageController">
    <children>
       <Label layoutX="32.0" layoutY="23.0" text="Craft Burger Catalog" textFill="#fb6c00">
          <font>

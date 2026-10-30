@@ -1,4 +1,4 @@
-package Controller;
+package Controller.catalogs;
 
 public class fishCatalogPageController {
 }
