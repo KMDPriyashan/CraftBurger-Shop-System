@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.orderPageController">
+   <children>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="506.0" layoutX="34.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="560.0">
+         <effect>
+            <DropShadow height="53.75" radius="27.545" width="58.43">
+               <color>
+                  <Color opacity="0.1376146525144577" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label layoutX="34.0" layoutY="29.0" text="Order Management &amp; History" />
+   </children>
+</AnchorPane>
