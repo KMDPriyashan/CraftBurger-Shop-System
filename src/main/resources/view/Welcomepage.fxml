@@ -21,7 +21,7 @@
       <Label layoutX="509.0" layoutY="292.0" text="Welcome to the central hub of Burger Craft." />
       <Label layoutX="507.0" layoutY="312.0" text="Easily manage daily orders, view menu items, track real-time sales," />
       <Label layoutX="508.0" layoutY="333.0" text="and deliver fresh, delicious burgers to our customers faster than ever!" />
-      <Button layoutX="508.0" layoutY="422.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #FB6C00;" text="Lets's Go" textFill="WHITE" />
+      <Button fx:id="btnWelcomepage" layoutX="508.0" layoutY="422.0" mnemonicParsing="false" onAction="#btnWelcomepageOnAction" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: #FB6C00;" text="Lets's Go" textFill="WHITE" />
       <Label layoutX="41.0" layoutY="41.0" text="Craft Burger - POS System V1-0">
          <font>
             <Font name="Agency FB" size="20.0" />
