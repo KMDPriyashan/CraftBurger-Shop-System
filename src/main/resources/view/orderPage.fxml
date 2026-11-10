@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.orderPageController">
    <children>
-      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="506.0" layoutX="34.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="560.0">
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="494.0" layoutX="34.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="607.0">
          <effect>
             <DropShadow height="53.75" radius="27.545" width="58.43">
                <color>
@@ -17,6 +23,94 @@
             </DropShadow>
          </effect>
       </Rectangle>
-      <Label layoutX="34.0" layoutY="29.0" text="Order Management &amp; History" />
+      <Label layoutX="34.0" layoutY="29.0" text="Order Management &amp; History">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="75.0" text="Track Kitchen Progress &amp; Customer Invoices" />
+      <Button layoutX="35.0" layoutY="102.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="73.0" style="-fx-background-color: #000000; -fx-border-radius: 15; -fx-background-radius: 10;" text="All Orders" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="115.0" layoutY="102.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="92.0" style="-fx-background-color: #9FED72; -fx-background-radius: 10; -fx-border-radius: 10;" text="Completed" />
+      <Button layoutX="213.0" layoutY="102.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: #2391FF; -fx-background-radius: 10; -fx-border-radius: 10;" text="Ready" textFill="WHITE" />
+      <Button layoutX="286.0" layoutY="102.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" style="-fx-background-color: #FFF83F; -fx-background-radius: 10; -fx-border-radius: 10;" text="Preparing" />
+      <TableView layoutX="46.0" layoutY="162.0" prefHeight="470.0" prefWidth="582.0" style="-fx-background-color: #ffffff;">
+        <columns>
+          <TableColumn prefWidth="75.0" text="OrderID" />
+          <TableColumn prefWidth="104.7999496459961" text="Customer Name" />
+            <TableColumn prefWidth="237.5999755859375" text="Item Summary" />
+            <TableColumn prefWidth="91.20004272460938" text="Bill Amount" />
+            <TableColumn prefWidth="74.4000244140625" text="Status" />
+        </columns>
+      </TableView>
+      <TextField layoutX="373.0" layoutY="36.0" prefHeight="38.0" prefWidth="370.0" promptText="Search Any Foods" style="-fx-background-radius: 15;" />
+      <Button layoutX="767.0" layoutY="36.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="102.0" style="-fx-background-color: #fb6c00;" text="Export Report" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="494.0" layoutX="664.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0">
+         <effect>
+            <DropShadow height="53.75" radius="27.545" width="58.43">
+               <color>
+                  <Color opacity="0.1376146525144577" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label layoutX="680.0" layoutY="162.0" text="Selected Order">
+         <font>
+            <Font name="Agency FB" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="185.0" text="#ORD-1001">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="240.0" text="Customer: " />
+      <Label layoutX="679.0" layoutY="264.0" text="Phone No :" />
+      <Label layoutX="679.0" layoutY="287.0" text="Time Placed :" />
+      <Label layoutX="680.0" layoutY="310.0" text="Payment :" />
+      <Label layoutX="818.0" layoutY="239.0" text="Kasun Perera" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="826.0" layoutY="263.0" text="0724719902" textAlignment="RIGHT" />
+      <Label layoutX="807.0" layoutY="287.0" text="Today 10.45 AM" textAlignment="RIGHT" textFill="#48a111" />
+      <Label layoutX="865.0" layoutY="309.0" text="COD" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="351.0" text="Order Items">
+         <font>
+            <Font name="Agency FB Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="677.0" layoutY="379.0" text="Double Beef Cheese Burger" />
+      <Label layoutX="850.0" layoutY="379.0" text="2200.00" textFill="#fb6c00">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="677.0" layoutY="399.0" text="Coca-Cola 500ml" />
+      <Label layoutX="856.0" layoutY="399.0" text="200.00" textFill="#fb6c00">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="431.0" text="Update Kitchen / Order Status">
+         <font>
+            <Font name="Agency FB Bold" size="15.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="679.0" layoutY="459.0" mnemonicParsing="false" text="Preparing In kitchen" textFill="#fb6c00" />
+      <RadioButton layoutX="679.0" layoutY="482.0" mnemonicParsing="false" text="Order ready for pick up" textFill="#fb6c00" />
+      <RadioButton layoutX="679.0" layoutY="506.0" mnemonicParsing="false" text="Order Completed" textFill="#fb6c00" />
+      <RadioButton layoutX="680.0" layoutY="531.0" mnemonicParsing="false" text="Cancel Order" textFill="#fb6c00" />
    </children>
 </AnchorPane>
