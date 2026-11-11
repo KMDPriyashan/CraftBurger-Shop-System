@@ -8,8 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="676.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.signupPageController">
+<AnchorPane prefHeight="676.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Signup.signupPageController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb6c00" height="676.0" layoutX="499.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="426.0" />
       <Label layoutX="599.0" layoutY="241.0" text="Craft Burger" textFill="WHITE">
@@ -45,32 +44,32 @@
             <Font name="Agency FB Bold" size="35.0" />
          </font>
       </Label>
-      <TextField layoutX="82.0" layoutY="207.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter Full Name" />
+      <TextField fx:id="txtfullname" layoutX="82.0" layoutY="207.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter Full Name" />
       <Label layoutX="82.0" layoutY="178.0" text="Full Name">
          <font>
             <Font name="Agency FB Bold" size="15.0" />
          </font>
       </Label>
-      <TextField layoutX="82.0" layoutY="295.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter Email Address" />
-      <Label layoutX="82.0" layoutY="266.0" text="Email Address">
+      <TextField fx:id="txtusername" layoutX="82.0" layoutY="295.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter your username" />
+      <Label layoutX="82.0" layoutY="266.0" text="Username">
          <font>
             <Font name="Agency FB Bold" size="15.0" />
          </font>
       </Label>
-      <TextField layoutX="82.0" layoutY="385.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter Password" />
+      <TextField fx:id="txtpassword" layoutX="82.0" layoutY="385.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter Password" />
       <Label layoutX="82.0" layoutY="356.0" text="Password">
          <font>
             <Font name="Agency FB Bold" size="15.0" />
          </font>
       </Label>
-      <TextField layoutX="82.0" layoutY="471.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter Your City" />
-      <Label layoutX="82.0" layoutY="442.0" text="City / Town">
+      <TextField fx:id="txtrole" layoutX="82.0" layoutY="471.0" prefHeight="43.0" prefWidth="330.0" promptText="Enter Your role (admin,store Manager, cashire..)" />
+      <Label layoutX="82.0" layoutY="442.0" text="Role">
          <font>
             <Font name="Agency FB Bold" size="15.0" />
          </font>
       </Label>
-      <Button layoutX="82.0" layoutY="548.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="102.0" style="-fx-background-color: #FB6C00;" text="Login" textFill="WHITE" />
-      <Button layoutX="207.0" layoutY="548.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="102.0" style="-fx-background-color: #000000;" text="Signup" textFill="WHITE" />
-      <Label layoutX="101.0" layoutY="630.0" text="Developer By KMDevelopR - Burger Shop Desktop App" />
+      <Button fx:id="btnSignup" layoutX="82.0" layoutY="533.0" mnemonicParsing="false" onAction="#btnSignupOnAction" prefHeight="34.0" prefWidth="330.0" style="-fx-background-color: #FB6C00;" text="Signup" textFill="WHITE" />
+      <Button fx:id="btnlogin" layoutX="280.0" layoutY="589.0" mnemonicParsing="false" onAction="#btnloginOnAction" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #000000;" text="Login" textFill="WHITE" />
+      <Label layoutX="124.0" layoutY="596.0" text="Already have an account ! " />
    </children>
 </AnchorPane>
