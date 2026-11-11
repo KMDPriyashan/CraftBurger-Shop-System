@@ -20,14 +20,14 @@
          </font>
       </Label>
       <Label layoutX="257.0" layoutY="73.0" text="Real-time store metrics, sales stats &amp; live orders" />
-      <TextField layoutX="530.0" layoutY="37.0" prefHeight="38.0" prefWidth="370.0" promptText="Search Any Foods" />
+      <TextField layoutX="530.0" layoutY="37.0" prefHeight="38.0" prefWidth="370.0" promptText="Search Any Foods" style="-fx-background-radius: 10;" />
       <Label layoutX="42.0" layoutY="31.0" text="Craft Burger" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="30.0" />
          </font>
       </Label>
       <Label layoutX="44.0" layoutY="75.0" text="Speed &amp; Taste POS" textFill="WHITE" />
-      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="WHITE" height="150.0" layoutX="250.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="309.0">
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="WHITE" height="150.0" layoutX="250.0" layoutY="157.0" stroke="#fb6c00" strokeType="INSIDE" width="309.0">
          <effect>
             <DropShadow height="28.895" radius="13.14375" width="25.68">
                <color>
@@ -36,7 +36,7 @@
             </DropShadow>
          </effect>
       </Rectangle>
-      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="WHITE" height="150.0" layoutX="588.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="309.0">
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="WHITE" height="150.0" layoutX="588.0" layoutY="157.0" stroke="#fb6c00" strokeType="INSIDE" width="309.0">
          <effect>
             <DropShadow height="32.11" radius="13.9475" width="25.68">
                <color>
@@ -114,7 +114,7 @@
             <Font name="Agency FB" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="29.0" layoutY="127.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="Burger Menu" textFill="#fb6c00">
+      <Button fx:id="btnCategoryManu" layoutX="29.0" layoutY="120.0" mnemonicParsing="false" onAction="#btnCategoryManuOnAction" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="Burger Menu" textFill="#fb6c00">
          <effect>
             <DropShadow>
                <color>
@@ -122,6 +122,91 @@
                </color>
             </DropShadow>
          </effect>
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOrders" layoutX="29.0" layoutY="290.0" mnemonicParsing="false" onAction="#btnOrdersOnAction" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="Orders" textFill="#fb6c00">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnShoppingCart" layoutX="29.0" layoutY="344.0" mnemonicParsing="false" onAction="#btnShoppingCartOnAction" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="Shopping Cart" textFill="#fb6c00">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnItemManagement" layoutX="29.0" layoutY="398.0" mnemonicParsing="false" onAction="#btnItemManagementOnAction" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="Item Management" textFill="#fb6c00">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnChickenCategory" layoutX="111.0" layoutY="179.0" mnemonicParsing="false" onAction="#btnChickenCategoryOnAction" prefHeight="38.0" prefWidth="79.0" style="-fx-background-color: #000000;" text="chicken" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnFishCategory" layoutX="25.0" layoutY="179.0" mnemonicParsing="false" onAction="#btnFishCategoryOnAction" prefHeight="38.0" prefWidth="79.0" style="-fx-background-color: #000000;" text="Fish" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnComboCategory" layoutX="112.0" layoutY="227.0" mnemonicParsing="false" onAction="#btnComboCategoryOnAction" prefHeight="38.0" prefWidth="79.0" style="-fx-background-color: #000000;" text="Combo" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDrinkCategory" layoutX="25.0" layoutY="227.0" mnemonicParsing="false" onAction="#btnDrinkCategoryOnAction" prefHeight="38.0" prefWidth="80.0" style="-fx-background-color: #000000;" text="Drinks" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnHistory" layoutX="29.0" layoutY="450.0" mnemonicParsing="false" onAction="#btnHistoryOnAction" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="History" textFill="#fb6c00">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAnalysis" layoutX="29.0" layoutY="503.0" mnemonicParsing="false" onAction="#btnAnalysisOnAction" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #ffffff;" text="Analysis" textFill="#fb6c00">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLogout" layoutX="29.0" layoutY="609.0" mnemonicParsing="false" onAction="#btnLogoutOnAction" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #000000;" text="LogOut" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="20.0" />
          </font>
