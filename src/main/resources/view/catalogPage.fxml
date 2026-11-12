@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-image: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.catalogPageController">
+   <children>
+      <Label layoutX="42.0" layoutY="33.0" text="Craft Burger Catalog" textFill="#fb6c00">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="69.0" text="12 Signature Burgers &amp; Combo Specials" />
+      <TextField layoutX="288.0" layoutY="40.0" prefHeight="39.0" prefWidth="483.0" promptText="Search Any Foods" style="-fx-background-radius: 8;" />
+      <Button fx:id="btnBackToDashboard" layoutX="806.0" layoutY="43.0" mnemonicParsing="false" onAction="#btnBackToDashboardOnAction" prefHeight="31.0" prefWidth="91.0" style="-fx-background-color: #000000;" text="Dashboard" textFill="WHITE" />
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="WHITE" height="327.0" layoutX="46.0" layoutY="116.0" stroke="#fb6c00" strokeType="INSIDE" strokeWidth="0.0" width="258.0">
+         <effect>
+            <DropShadow height="56.09" radius="28.715000000000003" spread="0.07" width="60.77">
+               <color>
+                  <Color opacity="0.12844039499759674" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="240.0" fitWidth="246.0" layoutX="55.0" layoutY="116.0" onMouseClicked="#btnFishBurgerOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/fride%207.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="85.0" layoutY="365.0" text="Fish Burgers Catalogs">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="403.0" text="Find the better chooice and deilshase" textFill="#fb6c00" />
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="WHITE" height="327.0" layoutX="340.0" layoutY="116.0" stroke="#fb6c00" strokeType="INSIDE" strokeWidth="0.0" width="258.0">
+         <effect>
+            <DropShadow height="56.09" radius="28.715000000000003" spread="0.07" width="60.77">
+               <color>
+                  <Color opacity="0.12844039499759674" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="240.0" fitWidth="246.0" layoutX="349.0" layoutY="116.0" onMouseClicked="#btnChickenBurgerOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/fride%207.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="363.0" layoutY="365.0" text="Chicken Burgers Catalogs">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="403.0" text="Find the better chooice and deilshase" textFill="#fb6c00" />
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="WHITE" height="327.0" layoutX="622.0" layoutY="116.0" stroke="#fb6c00" strokeType="INSIDE" strokeWidth="0.0" width="258.0">
+         <effect>
+            <DropShadow height="56.09" radius="28.715000000000003" spread="0.07" width="60.77">
+               <color>
+                  <Color opacity="0.12844039499759674" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="240.0" fitWidth="246.0" layoutX="631.0" layoutY="116.0" onMouseClicked="#btnComboBurgerOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/fride%207.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="645.0" layoutY="365.0" text="Combo Burgers Catalogs">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="656.0" layoutY="403.0" text="Find the better chooice and deilshase" textFill="#fb6c00" />
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="WHITE" height="173.0" layoutX="46.0" layoutY="472.0" onMouseClicked="#btnBevarageOnAction" stroke="#fb6c00" strokeType="INSIDE" strokeWidth="0.0" width="456.0">
+         <effect>
+            <DropShadow height="56.09" radius="28.715000000000003" spread="0.07" width="60.77">
+               <color>
+                  <Color opacity="0.12844039499759674" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="483.0" onMouseClicked="#btnBevarageOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/spicy%202.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="239.0" layoutY="530.0" text="Bevarages catalogs">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="234.0" layoutY="568.0" text="Find the better chooice and deilshase dinks" textFill="#fb6c00" />
+      <Label layoutX="642.0" layoutY="483.0" text="CraftBurger shops" />
+      <Label layoutX="642.0" layoutY="505.0" text="219/A Vijerama Road, Ehalagama, Gampaha" />
+      <Label layoutX="642.0" layoutY="531.0" text="CraftBurgershop@Gemail.com" />
+      <Label layoutX="642.0" layoutY="558.0" text="www.CraftBurger.com" />
+      <Label layoutX="642.0" layoutY="584.0" text="+94 72 471 9902" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fa6800" height="128.0" layoutX="562.0" layoutY="480.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+      <Label layoutX="562.0" layoutY="625.0" text="Developer by KMDeveloperS Production" textFill="#fb6c00">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
