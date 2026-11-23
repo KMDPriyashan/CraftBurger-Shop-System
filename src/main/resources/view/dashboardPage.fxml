@@ -11,7 +11,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.dashboardPageController">
+<AnchorPane prefHeight="676.0" prefWidth="925.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Dashboard.dashboardPageController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb6c00" height="676.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="225.0" />
       <Label layoutX="257.0" layoutY="31.0" text="POS Dashboard">
