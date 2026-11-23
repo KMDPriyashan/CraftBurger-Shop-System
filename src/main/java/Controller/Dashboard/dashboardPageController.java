@@ -1,4 +1,4 @@
-package Controller;
+package Controller.Dashboard;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
@@ -18,30 +18,39 @@ public class dashboardPageController {
     public Button btnLogout;
 
     public void btnCategoryManuOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/catalogPage.fxml");
     }
 
     public void btnOrdersOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/orderPage.fxml");
     }
 
     public void btnShoppingCartOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/shoppingCartPage.fxml");
     }
 
     public void btnItemManagementOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/itemManagementPage.fxml");
     }
 
     public void btnChickenCategoryOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/Catalogs/chickenCatalogPage.fxml");
     }
 
     public void btnFishCategoryOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/Catalogs/fishCatalogPage.fxml");
     }
 
     public void btnComboCategoryOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/Catalogs/comboPackCatalogPage.fxml");
     }
 
     public void btnDrinkCategoryOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/Catalogs/beveragesCatalogPage.fxml");
     }
 
     public void btnHistoryOnAction(ActionEvent actionEvent) {
+        sceneManager.switchPage("/view/");
     }
 
     public void btnAnalysisOnAction(ActionEvent actionEvent) {
