@@ -39,10 +39,9 @@
       <TableView layoutX="46.0" layoutY="162.0" prefHeight="470.0" prefWidth="582.0" style="-fx-background-color: #ffffff;">
         <columns>
           <TableColumn prefWidth="75.0" text="OrderID" />
-          <TableColumn prefWidth="104.7999496459961" text="Customer Name" />
-            <TableColumn prefWidth="237.5999755859375" text="Item Summary" />
-            <TableColumn prefWidth="91.20004272460938" text="Bill Amount" />
-            <TableColumn prefWidth="74.4000244140625" text="Status" />
+            <TableColumn prefWidth="332.00001525878906" text="Item Summary" />
+            <TableColumn prefWidth="92.0" text="Bill Amount" />
+            <TableColumn prefWidth="83.199951171875" text="Status" />
         </columns>
       </TableView>
       <TextField layoutX="373.0" layoutY="36.0" prefHeight="38.0" prefWidth="370.0" promptText="Search Any Foods" style="-fx-background-radius: 15;" />
