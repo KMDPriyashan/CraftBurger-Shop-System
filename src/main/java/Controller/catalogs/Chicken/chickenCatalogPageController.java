@@ -16,7 +16,7 @@ public class chickenCatalogPageController {
     chickenController chickenController = new chickenController();
 
     public void btnhomePageOnAction(ActionEvent actionEvent) {
-        sceneManager.switchPage("/view/Catalogs/chickenCatalogPage.fxml");
+        sceneManager.switchPage("/view/dashboardPage.fxml");
     }
 
     public void btnFishOnAction(ActionEvent actionEvent) {

@@ -11,6 +11,6 @@ public class starter extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         sceneManager.setStage(stage);
-        sceneManager.switchPage("/view/Welcomepage.fxml");
+        sceneManager.switchPage("/view/dashboardPage.fxml");
     }
 }
